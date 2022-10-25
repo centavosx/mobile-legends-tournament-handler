@@ -1,0 +1,183 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.versus {
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.hero-selection {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.heroes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero {
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.white {
+  color: white;
+}
+
+.hero-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hero-info {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-info.right {
+  margin-right: 10px;
+  align-items: flex-end;
+}
+.hero-info.left {
+  margin-left: 10px;
+}
+
+.hero-name {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.category {
+  color: white;
+}
+
+.add-margin {
+  margin: 2px;
+}
+
+.players {
+  display: flex;
+  flex-direction: column;
+}
+
+.pl {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pl .left {
+  align-items: flex-start;
+}
+
+.pl.right {
+  align-items: flex-end;
+}
+
+.user {
+  background-color: transparent;
+  border: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.user.right {
+  text-align: right;
+}
+
+.user.left {
+  text-align: left;
+}
+
+.user:focus {
+  outline: none;
+}
+
+.me {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.between {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tourna-title {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  font-size: 40px;
+  border: 0;
+  font-weight: bold;
+}
+
+.tourna-title:focus {
+  outline: none;
+}
+
+.other {
+  flex: 1;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.image {
+  border-radius: 100%;
+  margin: 1px;
+}
+
+.card {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+}
+
+.close {
+  border-radius: 100%;
+  border: 0;
+  align-items: center;
+  padding: 1px 6px 4px 6px;
+  background-color: red;
+  color: white;
+  position: absolute;
+  right: -5;
+  top: -5;
+  z-index: 100;
+  cursor: pointer;
+}

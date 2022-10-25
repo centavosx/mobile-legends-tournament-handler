@@ -1,0 +1,174 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Read, create and discover stories around the world"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Image Picker</title>
+  </head>
+  <body>
+    <div class="versus">
+      <div class="me" id="left">
+        <div class="images" id="me-images">
+          <div class="card">
+            <img class="hero" />
+          </div>
+          <div class="card">
+            <img class="hero" />
+          </div>
+          <div class="card">
+            <img class="hero" />
+          </div>
+        </div>
+        <h4 style="color: white">Banning...</h4>
+        <div class="players">
+          <div class="pl left">
+            <div class="hero-detail">
+              <img class="hero" />
+              <div class="hero-info left">
+                <span class="hero-name">Gord</span>
+                <span class="category">Mage</span>
+              </div>
+            </div>
+            <input type="text" class="user left" value="Player 1" />
+          </div>
+          <div class="pl left">
+            <div class="hero-detail">
+              <img class="hero" />
+              <div class="hero-info left">
+                <span class="hero-name">Gord</span>
+                <span class="category">Mage</span>
+              </div>
+            </div>
+            <input type="text" class="user left" value="Player 2" />
+          </div>
+          <div class="pl left">
+            <div class="hero-detail">
+              <img class="hero" />
+              <div class="hero-info left">
+                <span class="hero-name">Gord</span>
+                <span class="category">Mage</span>
+              </div>
+            </div>
+            <input type="text" class="user left" value="Player 3" />
+          </div>
+          <div class="pl left">
+            <div class="hero-detail">
+              <img class="hero" />
+              <div class="hero-info left">
+                <span class="hero-name">Gord</span>
+                <span class="category">Mage</span>
+              </div>
+            </div>
+            <input type="text" class="user left" value="Player 4" />
+          </div>
+          <div class="pl left">
+            <div class="hero-detail">
+              <img class="hero" />
+              <div class="hero-info left">
+                <span class="hero-name">Gord</span>
+                <span class="category">Mage</span>
+              </div>
+            </div>
+            <input type="text" class="user left" value="Player 5" />
+          </div>
+        </div>
+      </div>
+      <div class="between">
+        <input
+          type="text"
+          class="tourna-title"
+          value="Tournament"
+          id="title"
+          style="display: none"
+        />
+        <h1 style="color: white" id="main">BANNING</h1>
+        <h4
+          style="color: white; cursor: pointer"
+          onclick="refresh()"
+          id="reset"
+        >
+          Reset
+        </h4>
+      </div>
+      <div class="other" id="right">
+        <div class="images" id="other-images">
+          <div class="card">
+            <img class="hero" />
+          </div>
+          <div class="card">
+            <img class="hero" />
+          </div>
+          <div class="card">
+            <img class="hero" />
+          </div>
+        </div>
+        <h4 style="color: white">Please wait...</h4>
+        <div class="players">
+          <div class="pl right">
+            <div class="hero-detail">
+              <div class="hero-info right">
+                <span class="hero-name">Gord</span>
+                <span class="category">Mage</span>
+              </div>
+              <img class="hero" />
+            </div>
+            <input type="text" class="user right" value="Player 1" />
+          </div>
+          <div class="pl right">
+            <div class="hero-detail">
+              <div class="hero-info right">
+                <span class="hero-name">Gord</span>
+                <span class="category">Mage</span>
+              </div>
+              <img class="hero" />
+            </div>
+            <input type="text" class="user right" value="Player 2" />
+          </div>
+
+          <div class="pl right">
+            <div class="hero-detail">
+              <div class="hero-info right">
+                <span class="hero-name">Gord</span>
+                <span class="category">Mage</span>
+              </div>
+              <img class="hero" />
+            </div>
+            <input type="text" class="user right" value="Player 3" />
+          </div>
+          <div class="pl right">
+            <div class="hero-detail">
+              <div class="hero-info right">
+                <span class="hero-name">Gord</span>
+                <span class="category">Mage</span>
+              </div>
+              <img class="hero" />
+            </div>
+            <input type="text" class="user right" value="Player 4" />
+          </div>
+          <div class="pl right">
+            <div class="hero-detail">
+              <div class="hero-info right">
+                <span class="hero-name">Gord</span>
+                <span class="category">Mage</span>
+              </div>
+              <img class="hero" />
+            </div>
+            <input type="text" class="user right" value="Player 5" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-selection">
+      <h1 class="white">Heroes</h1>
+      <div id="heroes-select" class="heroes"></div>
+    </div>
+    <script src="./heroes.js" type="text/javascript"></script>
+    <script src="./index.js" type="text/javascript"></script>
+    <script src="./select.js" type="text/javascript"></script>
+  </body>
+</html>
